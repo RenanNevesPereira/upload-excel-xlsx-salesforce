@@ -1,0 +1,24 @@
+<!--
+  @description       :
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             :
+  @last modified on  : 07-29-2025
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <lightning-card title="Upload Contacts">
+
+        <div class="slds-var-p-around_medium">
+            <div class="slds-align_absolute-center">
+                <lightning-input
+                    type="file"
+                    label="XLSX File"
+                    multiple="false"
+                    accept=".xlsx"
+                    onchange={handleUploadFinished}
+                ></lightning-input>
+            </div>
+        </div>
+
+    </lightning-card>
+</template>
